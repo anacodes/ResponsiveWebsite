@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style>
+        .link{
+           width:fit-content;
+           padding-right:1vw; 
+           padding-left:1vw;
+           display: flex;
+           align-items: center;
+           margin-top:1vh;
+           margin-bottom:1vh;
+        }
+        a{
+            text-decoration-line: none;
+        }
+        a:visited{
+            color:black;
+        }
+        .active{
+            background-color:white;
+            border-radius: 2vw;
+        }
+        .nav{
+            display:flex;
+            flex-direction: row;
+            background-color: #f1c40f;
+            height:6vh;
+            min-height:35px;
+            border-radius: 2vw;
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .heading{
+            background-color: #f1c40f;
+            border-radius:1.75vw;
+            padding:1vh 2vw 1vh 2vw;
+            margin-top:4vh;
+            font-size: 125%;
+        }
+        .overview{
+            //background-color: tomato;
+            background-color: #f1c40f;
+            display:flex;
+            justify-content:space-around; 
+            flex-wrap: wrap; 
+            /* height: 50vh;
+            width: 80vw; */
+            margin-left: 3vw;
+            margin-right: 3vw;
+            margin-top: 40px;;
+            border-radius: 2vw;
+            padding: 1.75vw;  
+        }
+        .project{
+            width:200px;
+            height: 100px;
+            background-color: white;
+            border-radius: 2vw;
+            margin:2.75vw;
+            /* padding:2vw; */
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+        img{
+            width:100%;
+            border-radius:2vw;
+        }
+        .over{
+            position: absolute; 
+            opacity: 0;
+            width:200px;
+            height: 113px;
+            border-radius: 2vw;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            background-color: rgba(176,190,197,0.5);
+        }
+        .project:hover .over{
+            opacity:1;
+            
+        }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="nav">
+                <div class="link" style="margin-left: 2vw;">
+                 <a href="home.html">HOME</a>
+                </div>
+                <div class="link">
+                 ABOUT US 
+                 </div>
+                <div class="link active">
+                 <a href="products.html">PRODUCTS</a>
+                </div>
+                <div class="link">
+                 <a href="contact.html">CONTACT US</a> 
+                </div>
+             </div>
+
+             <div class="info">
+                 <div class="heading">
+                   <p>OUR CAMPAIGNS FOR MOTHER NATURE</p>
+                  </div>
+                <div class="overview">
+                   <div class="project">
+                    <img src="wallpaper.jpg">
+                    <div class="over">asdf</div>   
+                </div>
+                   <div class="project">
+                    <img src="wallpaper.jpg">
+                    <div class="over">asdf</div>
+                </div>
+                <div class="project">
+                    <img src="wallpaper.jpg">
+                    <div class="over">asdf</div>
+                </div>
+                <div class="project">
+                    <img src="wallpaper.jpg">
+                    <div class="over">asdf</div>
+                </div>
+                </div>
+             </div>
+        </div>
+    </body>
+</html>

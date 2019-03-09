@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            WEBSITE
+        </title>
+        <style>
+        .link{
+           width:fit-content;
+           padding-right:1vw; 
+           padding-left:1vw;
+           display: flex;
+           align-items: center;
+           margin-top:1vh;
+           margin-bottom:1vh;
+        }
+        a{
+            text-decoration-line: none;
+        }
+        a:visited{
+            color:black;
+        }
+        .active{
+            background-color:white;
+            border-radius: 2vw;
+        }
+        .nav{
+            display:flex;
+            flex-direction: row;
+            background-color: #f1c40f;
+            height:6vh;
+            min-height:35px;
+            border-radius: 2vw;
+        }
+        .content{
+            /* background-color: yellowgreen; */
+            margin-top:12vh;
+            display: flex;
+            justify-content:space-around; 
+            flex-wrap: wrap; 
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 3vw;
+            margin-right: 3vw;
+        }
+        .person{
+            border-radius: 50%;
+            border: 5px solid #f1c40f;
+            width:200px;
+            height:200px;
+        }
+        .name{
+            width:200px;
+            display:flex;
+            justify-content: center;
+            height:fit-content;
+            background-color: #f1c40f;
+            padding-top:5px;
+            padding-bottom: 5px;
+            margin-top:10px;
+            border-radius: 10%;
+        }
+        img{
+            width:100%;
+            height:100%;
+            border-radius: 50%;
+        }
+        .address{
+            background-color: #f1c40f;
+            margin-top:1vh;
+            display: flex;
+            border-radius: 2vw;
+        }
+        .div1{
+            padding-top: 2vh;
+            padding-left:5vw;
+            width:50vw; 
+            padding-bottom: 2vh;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="nav">
+                <div class="link" style="margin-left: 2vw;">
+                 <a href="home.html">HOME</a>
+                </div>
+                <div class="link">
+                 ABOUT US 
+                 </div>
+                <div class="link">
+                 <a href="products.html">PRODUCTS</a>
+                </div>
+                <div class="link active">
+                 <a href="contact.html">CONTACT US</a>
+                </div>
+            </div>
+            <div class="content">
+               
+                <div class="info">
+                   <div class="person">
+                    <img src="image.jpg">
+                   </div>
+                   <div class="name">
+                    HEAD
+                   </div>
+               </div>
+
+               <div class="info">
+                <div class="person">
+                    <img src="image.jpg">
+                </div>
+                <div class="name">
+                    CO-HEAD
+                </div>
+                </div>
+
+               <div class="info">
+                <div class="person">
+                    <img src="image.jpg">
+                </div>
+                <div class="name">
+                  CEO  
+                </div>
+               </div>
+
+               <div class="info">
+                <div class="person">
+                    <img src="image.jpg">
+                </div>
+                <div class="name">
+                    CMO
+                </div>
+               </div>
+
+               <div class="info">
+                <div class="person">
+                    <img src="image.jpg">
+                </div>
+                <div class="name">
+                    CFO
+                </div>
+               </div>
+           </div>
+           <div class="address">
+              <div class="div1" style="font-size: 1.3vw;display: flex;align-items: center;">
+                Address : <br>                
+                Block No. - 123,<br> M.G.Road, Dadar(West), <br> 234567 .<br>
+                Phone - 1234567890
+              </div>
+              <div class="div1" style="border-left-style:dashed;font-size: 1.5vw;">
+                <b>Contact Us :</b>
+                <br>
+                <form>
+                    <input type="text" placeholder="Name" style="border-radius:8px;margin-bottom: 5px;" required> <br>
+                    <input type="email" placeholder="email address" style="border-radius:8px;margin-bottom: 7px;" required> <br>
+                    <textarea rows="3" columns="15" placeholder="Subject" style="border-radius:8px;" required></textarea><br>
+                    <input type="submit" value="Send" style="border-radius:8px;">
+                </form>
+              </div>
+           </div>
+        </div>
+    </body>
+</html>
